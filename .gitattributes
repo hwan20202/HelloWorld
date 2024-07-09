@@ -1,0 +1,20 @@
+
+# 텍스트 파일에 대해 LF 줄바꿈 사용
+*.txt text eol=lf
+
+# 소스 코드 파일에 대해 LF 줄바꿈 사용
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+
+# Windows 실행 파일에 대해 CRLF 줄바꿈 사용
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 기타 파일 타입에 대한 설정
+*.sh text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
